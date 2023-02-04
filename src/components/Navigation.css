@@ -1,6 +1,0 @@
-.foreground {
-    height: 100vh;
-    width: 20em;
-    backdrop-filter: blur( 7.5px );
-    -webkit-backdrop-filter: blur( 7.5px );
-  }
