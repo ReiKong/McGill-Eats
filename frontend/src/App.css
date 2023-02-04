@@ -1,12 +1,13 @@
 .App {
   text-align: center;
-  background-image: './components/images/testBackgroundImage.png';
+  background-image: url('./components/images/testBackgroundImage.png');
   width: 100%;
   min-width: 100%;
   min-height: 100%;
   height: 100vh;
   background-size: cover;
   background-position: center;
+
 }
 
 .App-logo {
@@ -15,7 +16,7 @@
 }
 
 .App-header {
-  /*background-color: #282c34;*/
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
