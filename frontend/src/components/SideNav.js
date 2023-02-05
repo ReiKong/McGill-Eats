@@ -9,7 +9,7 @@ function SideNav() {
         <div className='side-nav'>
             <div id="wrapper">
                 <div>
-                    <Buttons />
+                    <Button />
                 </div>
                 <hr className='divider' />
 
