@@ -1,20 +1,26 @@
+p { 
+    margin: 4px;
+}
+
+
 .side-nav {
-    background-color: rgba(255, 0, 0, 0.3);
-    color: rgb(178, 9, 9);
+    background-color: rgba(243, 243, 243, 0.75);
+    color: #949494;
     display: flex;
     position: fixed;
     /* Setting the size of the upper layer to 80% of the screen size*/
     left: 0;
     top: 0;
     bottom: 0;
-    width: 250px;
+    width: 400px;
+    text-align: left;
     /* justify-content: space-between; */
     /* padding: 50px; */
     /*the alpha value controls the transparency*/
     
 
     /* This controls the blurring effect*/
-    backdrop-filter: blur( 50px );
+    backdrop-filter: blur( 30px );
     -webkit-backdrop-filter: blur( 7.5px );
 
     /*Adding the shadow*/
@@ -25,4 +31,25 @@
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     z-index: 20;
     
+}
+
+#wrapper {
+    float: left;
+    width: 400px;
+}
+
+.place-overview {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    clear: both;
+}
+
+.place-name {
+    color: black;
+    font-weight: 600;
+}
+
+.divider {
+    width:90%;
 }
