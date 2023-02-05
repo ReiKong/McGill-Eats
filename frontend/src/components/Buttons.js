@@ -21,7 +21,7 @@ class Buttons extends React.Component {
         console.log(`Calling backend...`);
 
         // ref: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
-        fetch('http://127.0.0.1:8000/restaurants/')
+        fetch('http://localhost:8000/')
             .then((response) => response.json())
             .then((data) => console.log(data)); // Can use the "data"
     }

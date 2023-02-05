@@ -1,7 +1,7 @@
 import './SideNav.css';
 import React, { useState } from "react";
 import oneCardLogoGray from './images/oneCardLogoGray.png';
-import Button from './Buttons';
+import Buttons from './Buttons';
 
 
 function SideNav() {
@@ -9,7 +9,7 @@ function SideNav() {
         <div className='side-nav'>
             <div id="wrapper">
                 <div>
-                    <Buttons />
+                    <Button />
                 </div>
                 <hr className='divider' />
 
