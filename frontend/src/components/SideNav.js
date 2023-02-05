@@ -4,33 +4,19 @@ import React, { useState } from "react";
 
 function SideNav() {
     return (
-        <div className='SideNav'>
-            <nav>
-                <ul>
-    
-                    <li>
-                        <p>meow</p>
-                    </li>
-    
-    
-                    <li>
-                        <p>meow</p>
-                    </li>
-                    <li>
-                        <p>meow</p>
-                    </li>
-                    <li>
-                        <p>meow</p>
-                    </li>
-    
-    
-                </ul>
-            </nav>
+        <div className='side-nav'>
+            <div>
+                <div>
+                    meow
+                </div>
+                <div>
+                    meow
+                </div>
+            </div>
     
         </div>
-      )
-    
+    );
 }
   
 
-export default SideNav
+export default SideNav;

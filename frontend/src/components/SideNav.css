@@ -1,18 +1,20 @@
 .side-nav {
+    background-color: rgba(255, 0, 0, 0.3);
+    color: rgb(178, 9, 9);
     display: flex;
-    position: relative;
+    position: fixed;
     /* Setting the size of the upper layer to 80% of the screen size*/
-    height: 80vh;
-    width: 80vw;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
-
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    /* justify-content: space-between; */
+    /* padding: 50px; */
     /*the alpha value controls the transparency*/
-    background: rgba( 255, 255, 255, 0.3 );
+    
 
     /* This controls the blurring effect*/
-    backdrop-filter: blur( 7.5px );
+    backdrop-filter: blur( 50px );
     -webkit-backdrop-filter: blur( 7.5px );
 
     /*Adding the shadow*/
@@ -21,6 +23,6 @@
     /* Adding our borders*/
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    z-index: 4;
+    z-index: 20;
     
 }

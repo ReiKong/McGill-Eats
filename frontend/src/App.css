@@ -1,4 +1,6 @@
 .App {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
   background-image: url('./components/images/testBackgroundImage.png');
   width: 100%;
